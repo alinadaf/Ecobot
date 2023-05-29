@@ -9,6 +9,6 @@ app = Client("test696_bot")
 
 @app.on_message(group=1)
 async def messageHandler(client,message):
-    await message.reply(message.text)
+    await message.reply("salam! "+message.text)
 
 app.run()
